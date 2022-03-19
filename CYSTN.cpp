@@ -11,6 +11,7 @@ int main()
     char Continue;  
     bool Start = true;
     char Input;
+     int tries = 5;
 
  
     
@@ -26,14 +27,21 @@ int main()
           std::cout << "Enter Your Password ( Note only one letter allowed ):: ";
           std::cin >> Input ;
 
-
-        if ( ( Pin == Input )  )
+          
+          
+          
+          if ( ;triers > 0;) {  
+               
+               
+               
+               if ( ( Pin == Input )  )
          {
             std :: cout << "Correct Password You Are Sucessful Welcome to Can You See This Nuts \n";
             
          }
          else{
            std::cout << " incorrect Password Try Again\n";
+           std::cout <<    
             std::cout << "Do You Want to Try Again ...... Y|N\n";
          }
           
@@ -54,6 +62,10 @@ int main()
           Start = false;
             break;
 
+          
+          }
+
+        
 
 
 
